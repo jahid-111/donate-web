@@ -1,0 +1,134 @@
+body {
+    margin: auto;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    /*font-family: 'Teko', sans-serif;*/
+}
+
+
+
+
+.first-page {
+    width: 100%;
+    background-image: url(bg/bg-02.jpeg);
+    background-repeat: no-repeat;
+    height: 665px;
+    background-size: 100%;
+    filter: blur(0px);
+}
+
+.head-cont {
+    margin: 0% 25%;
+    padding-top: 10%;
+
+}
+
+.head-cont h1 {
+    font-size: 58px;
+    color: crimson;
+    text-shadow: -10px -6px 10px #a68888;
+    text-align: center;
+}
+
+.head-cont h5 {
+    font-size: 18px;
+    color: bisque;
+    text-align: center;
+}
+
+.head-cont a {
+    margin: 0% 39%;
+    background: tomato;
+    color: #fff;
+    padding: 11px 18px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+
+/*section 2*/
+
+
+.display {
+    display: flex;
+}
+
+.donate-today {}
+
+.donate-amount {}
+
+.cont-head {
+    margin: 7% 25%;
+}
+
+.cont-head h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.cont-head h4 {
+    font-size: 19px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.amount {
+    margin: 0% 25%;
+}
+
+.amount h2 {
+    background: #4b4b44;
+    margin: 10px;
+    padding: 35px 15px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: red;
+    border: 3px outset red;
+}
+
+#other {
+    margin: 2% 29%;
+    height: 30px;
+    width: 600px;
+}
+
+
+input[type="text"],
+input[type="password"],
+textarea {
+    border: none;
+    outline: none;
+    border-bottom: 3px solid blue;
+    text-align: center;
+    font-size: 17px;
+}
+
+input[type="password"],
+textarea {
+    border: none;
+    outline: none;
+    border-bottom: 3px solid blue;
+    /* You can adjust the color and thickness of the outline */
+}
+
+#other-donate {
+    margin: 0% 44%;
+    background: tomato;
+    color: #fff;
+    padding: 11px 18px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 5px;
+}
