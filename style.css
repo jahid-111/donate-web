@@ -61,9 +61,9 @@ body {
     display: flex;
 }
 
-.donate-today {}
-
-.donate-amount {}
+.donate-today {
+    margin: 0% 0%;
+}
 
 .cont-head {
     margin: 7% 25%;
@@ -95,12 +95,18 @@ body {
     border: 3px outset red;
 }
 
-#other {
-    margin: 2% 29%;
-    height: 30px;
-    width: 600px;
+
+form {
+    margin: 0% 25%;
 }
 
+#other {
+    margin: 2% 10%;
+    height: 35px;
+    width: 80%;
+    background: #e6d9d95e;
+    border-bottom-style: double;
+}
 
 input[type="text"],
 input[type="password"],
@@ -120,6 +126,11 @@ textarea {
     /* You can adjust the color and thickness of the outline */
 }
 
+.Donate-now {
+    height: 55px;
+    margin: 0.7% 0% 0% 0%;
+}
+
 #other-donate {
     margin: 0% 44%;
     background: tomato;
@@ -131,4 +142,83 @@ textarea {
     text-align: center;
     border: 2px solid;
     border-radius: 5px;
+}
+
+
+.plan-head {
+    margin: 0% 0%;
+    background: #ddd;
+}
+
+.plan-description {
+    display: flex;
+    margin: 0% 10%;
+}
+
+.desc {
+
+    margin: 10px;
+}
+
+.desc img {
+    width: 50px;
+    height: 50px;
+    padding: 65px 35px 4px 30px;
+}
+
+.desc h3 {
+    font-size: 24px;
+    padding: 0px 30px;
+}
+
+.desc p {
+    font-size: 17px;
+    text-align: justify;
+    padding: 5px 15px 40px 30px;
+}
+
+
+
+
+.life-desc {
+    width: 100%;
+}
+
+.life-cont {
+    display: flex;
+    margin: 0% 10%;
+}
+
+.text-box {
+    padding: 10px;
+    margin-top: 50px;
+    width: 50%;
+
+}
+
+.text-box h1 {
+    font-size: 50px;
+}
+
+.text-box p {
+    padding: 4px;
+    font-size: 22px;
+
+}
+
+.life-img {
+    padding: 10px;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.life-img img {
+    width: 85%;
+    padding-top: 5px;
+    height: 100%;
+    border-radius: 40px;
+}
+
+.life-desc-2 {
+    margin-top: 35px;
 }
